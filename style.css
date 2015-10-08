@@ -1,0 +1,43 @@
+/*
+ Theme Name:   Adaline Pink
+ Theme URI:    https://themetry.com/adaline-accent-color/
+ Description:  This is a child theme of Themetry's Adaline theme, used to demonstrate changing the accent color.
+ Author:       Themetry
+ Author URI:   https://themetry.com
+ Template:     adaline
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  adaline-pink
+*/
+
+.site-header,
+.single .entry-title:before,
+.comment-reply-title  {
+	background-color: pink;
+}
+
+.site-header > .logo-letter { 
+	color: pink;
+}
+
+.posts-navigation a,
+.site-main #infinite-handle span button,
+.site-main #infinite-handle span button:hover,
+.site-main #infinite-handle span button:focus,
+.posts-navigation a:before,
+#infinite-handle button:before,
+.main-navigation a,
+.byline a,
+.cat-links a,
+.entry-content a,
+.featured-primary .entry-excerpt a,
+.post-navigation .nav-links a,
+.comment-navigation a,
+.comment-content a,
+.comment-form a,
+.widget a,
+.site-info-text a,
+.featured-row {
+	border-color: pink;
+}
